@@ -24,3 +24,35 @@ header{
     margin-left: 10px;
     margin-right: 5px;
 }
+
+main{
+    background-color: black;
+}
+
+.main-content{
+    width: 80%;
+    margin: auto;
+    background-color: chocolate;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.immagine img{
+    height: 200px;
+}
+
+.immagine{
+    width: 15%;
+    height: 200px;
+    background-image: url("https://picsum.photos/id/237/200/300");
+    background-size: cover;
+    flex-direction: column-reverse;
+}
+
+.inside-img{
+    background-color: grey;
+    color: white;
+    height: 20px;
+    width: 90px;
+}
