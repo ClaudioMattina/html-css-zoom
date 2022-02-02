@@ -75,13 +75,6 @@ main{
     justify-content: space-between;
 }
 
-.footer-content div{
-    width: 200px;
-    height: 80px;
-    background-color:yellowgreen ;
-    align-self: center;
-}
-
 .into-footer-section{
     flex-direction: column;
     align-items: center;
@@ -95,4 +88,20 @@ main{
 
 .into-footer-section :nth-child(3){
     font-size: 1em;
+}
+
+.footer-section{
+    height: 80px;
+    background-color:yellowgreen ;
+    align-self: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.footer-right{
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color:red;
+    padding: 0 20px 0 20px;
 }
