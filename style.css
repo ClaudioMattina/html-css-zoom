@@ -76,14 +76,23 @@ main{
 }
 
 .footer-content div{
-    width: 100px;
+    width: 200px;
     height: 80px;
     background-color:yellowgreen ;
     align-self: center;
 }
 
-.footer-section{
+.into-footer-section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.into-footer-section i{
+    font-size: 3em;
+}
+
+.into-footer-section :nth-child(3){
+    font-size: 1em;
 }
