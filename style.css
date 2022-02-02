@@ -84,6 +84,6 @@ main{
 
 .footer-section{
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-self: center;
 }
