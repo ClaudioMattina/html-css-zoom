@@ -87,6 +87,16 @@ main{
     margin-left: 10px;
 }
 
+.into-footer-section i:hover{
+    color: hotpink;
+}
+
+.into-footer-section i:active{
+    color: purple;
+    font-size: 3em;
+    transition: ease-in-out 0.5s;
+}
+
 .into-footer-section :nth-child(3){
     font-size: 1.5em;
 }
