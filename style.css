@@ -36,7 +36,6 @@ main{
 .main-content{
     width: 80%;
     margin: auto;
-    background-color: chocolate;
     gap: 5px;
     flex-wrap: wrap;
     justify-content: center;
@@ -80,5 +79,11 @@ main{
     width: 100px;
     height: 80px;
     background-color:yellowgreen ;
+    align-self: center;
+}
+
+.footer-section{
+    flex-direction: column;
+    justify-content: center;
     align-self: center;
 }
