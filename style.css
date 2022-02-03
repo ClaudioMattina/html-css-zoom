@@ -10,8 +10,8 @@
 
 /* header */
 header{
-    width: 100%;
-    height: 100px;
+    
+    height: 10vh;
     background-color: black;
     justify-content: flex-end;
     align-items: center;
@@ -30,7 +30,9 @@ header{
 
 /* main */
 main{
+    height: 80vh;
     background-color: black;
+    overflow: auto;
 }
 
 .main-content{
@@ -68,11 +70,12 @@ main{
 
 /* footer */
 .footer-content{
-    height: 80px;
+    height: 10vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.726);
     color: white;
     justify-content: space-between;
+    flex-shrink: 0;
 }
 
 .into-footer-section{
@@ -120,3 +123,8 @@ main{
 .green{
     color: green;
 }
+
+
+
+/* FLEX SHRINK AL FIGLIO.. VALORE 0 */
+/* wrap da qualche parte per far andare a capo il contenuto*/
